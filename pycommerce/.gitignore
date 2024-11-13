@@ -1,0 +1,66 @@
+# Python bytecode
+__pycache__/
+**/__pycache__/
+*.py[cod]
+*$py.class
+
+# Django stuff
+*.log
+db.sqlite3
+*.sqlite3
+/media/
+staticfiles/
+
+# Django migrations
+**/migrations/
+
+# Environment variables
+.env
+.env.*
+
+# Virtual environments
+venv/
+env/
+venv.bak/
+env.bak/
+
+# VS Code
+.vscode/
+
+# PyCharm
+.idea/
+
+# macOS files
+.DS_Store
+
+# Python packaging
+*.egg
+*.egg-info/
+dist/
+build/
+*.egg-info/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Coverage reports
+htmlcov/
+.coverage
+.tox/
+.nox/
+.pytest_cache/
+
+# MyPy cache
+.mypy_cache/
+
+# Temporary files and directories
+*.temp
+*.tmp
+*.swp
+*~
+Thumbs.db
+
+# Other IDE specific
+*.sublime-workspace
+*.sublime-project
+*.sublime-settings
